@@ -1,0 +1,22 @@
+<RTT>
+  <AgencyList>
+    <Agency Name="Dumbarton Express" HasDirection="True" Mode="Bus">
+      <RouteList>
+        <Route Name="DB1" Code="DB1">
+          <RouteDirectionList>
+            <RouteDirection Code="East" Name="To Union City BART">
+              <StopList>
+                <Stop name="Deer Creek Rd and Arastradero Rd" StopCode="58409">
+                  <DepartureTimeList>
+                    <DepartureTime>4</DepartureTime>
+                    <DepartureTime>14</DepartureTime>
+                  </DepartureTimeList>
+                </Stop>
+              </StopList>
+            </RouteDirection>
+          </RouteDirectionList>
+        </Route>
+      </RouteList>
+    </Agency>
+  </AgencyList>
+</RTT>
