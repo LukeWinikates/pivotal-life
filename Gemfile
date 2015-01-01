@@ -23,7 +23,7 @@ end
 group :development, :test do
   gem 'pry'
   gem 'vcr'
-  gem 'webmock'
+  gem 'webmock', '<1.16'
   gem 'rack-coffee'
 end
 
